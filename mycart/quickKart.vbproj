@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9046E95E-D213-4D66-BA5C-7534C9965B87}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>quickKart</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pom.xml" />
+    <Content Include="src\main\java\com\learn\mycart\dao\CategoryDao.java" />
+    <Content Include="src\main\java\com\learn\mycart\dao\ProductDao.java" />
+    <Content Include="src\main\java\com\learn\mycart\dao\UserDao.java" />
+    <Content Include="src\main\java\com\learn\mycart\entities\Category.java" />
+    <Content Include="src\main\java\com\learn\mycart\entities\Product.java" />
+    <Content Include="src\main\java\com\learn\mycart\entities\User.java" />
+    <Content Include="src\main\java\com\learn\mycart\helper\FactoryProvider.java" />
+    <Content Include="src\main\java\com\learn\mycart\helper\Helper.java" />
+    <Content Include="src\main\java\com\learn\mycart\servlets\LoginServlet.java" />
+    <Content Include="src\main\java\com\learn\mycart\servlets\LogoutServlet.java" />
+    <Content Include="src\main\java\com\learn\mycart\servlets\ProductOperationServlet.java" />
+    <Content Include="src\main\java\com\learn\mycart\servlets\RegisterServlet.java" />
+    <Content Include="src\main\resources\hibernate.cfg.xml" />
+    <Content Include="src\main\webapp\css\style.css" />
+    <Content Include="src\main\webapp\img\add-friend.png" />
+    <Content Include="src\main\webapp\img\keys.png" />
+    <Content Include="src\main\webapp\img\list.png" />
+    <Content Include="src\main\webapp\img\plus.png" />
+    <Content Include="src\main\webapp\img\product.png" />
+    <Content Include="src\main\webapp\img\products\social.png" />
+    <Content Include="src\main\webapp\img\seo-and-web.png" />
+    <Content Include="src\main\webapp\img\social.png" />
+    <Content Include="src\main\webapp\js\script.js" />
+    <Content Include="src\main\webapp\META-INF\context.xml" />
+    <Content Include="src\main\webapp\WEB-INF\web.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\.vs\slnx.sqlite" />
+    <None Include="src\.vs\src\v16\.suo" />
+    <None Include="src\.vs\VSWorkspaceState.json" />
+    <None Include="src\main\webapp\about.jsp" />
+    <None Include="src\main\webapp\admin.jsp" />
+    <None Include="src\main\webapp\checkout.jsp" />
+    <None Include="src\main\webapp\components\common_css_js.jsp" />
+    <None Include="src\main\webapp\components\common_modals.jsp" />
+    <None Include="src\main\webapp\components\message.jsp" />
+    <None Include="src\main\webapp\components\navbar.jsp" />
+    <None Include="src\main\webapp\index.jsp" />
+    <None Include="src\main\webapp\login.jsp" />
+    <None Include="src\main\webapp\normal.jsp" />
+    <None Include="src\main\webapp\register.jsp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+    <Folder Include="src\test\java\" />
+    <Folder Include="target\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

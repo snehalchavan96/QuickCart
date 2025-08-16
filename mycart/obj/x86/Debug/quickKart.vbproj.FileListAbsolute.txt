@@ -1,0 +1,2 @@
+C:\Users\Snehal\OneDrive\Desktop\mycart\obj\x86\Debug\quickKart.vbproj.AssemblyReference.cache
+C:\Users\Snehal\OneDrive\Desktop\mycart\obj\x86\Debug\quickKart.vbproj.CoreCompileInputs.cache

@@ -34,4 +34,12 @@ Built with **Java, JDBC, Servlets, Hibernate, HTML, CSS, JavaScript, and MySQL**
 
 1. Clone the repo:  
    ```bash
-   https://github.com/snehalchavan96/ShopSmart.git
+   https://github.com/snehalchavan96/ShopSmart.git   
+2. Open the project in your IDE (Eclipse/IntelliJ/NetBeans)
+3. Set up the MySQL database using the provided schema
+4. Configure your DB credentials in the project
+5. Deploy on a server (e.g., Apache Tomcat) and run the application
+
+## Usage
+Users: Browse products, add to cart, place and track orders
+Admins: Manage inventory, update product listings, and track customer orders

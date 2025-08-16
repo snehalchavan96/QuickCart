@@ -43,3 +43,6 @@ Built with **Java, JDBC, Servlets, Hibernate, HTML, CSS, JavaScript, and MySQL**
 ## Usage
 Users: Browse products, add to cart, place and track orders
 Admins: Manage inventory, update product listings, and track customer orders
+
+
+

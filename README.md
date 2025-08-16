@@ -1,4 +1,4 @@
-# QuickCart : Shop Smart  
+# QuickKart : Shop Smart  
 
 A Java-based e-commerce platform enabling product listing, cart management, and order processing with a responsive interface for users and admins.  
 
@@ -34,7 +34,7 @@ Built with **Java, JDBC, Servlets, Hibernate, HTML, CSS, JavaScript, and MySQL**
 
 1. Clone the repo:  
    ```bash
-   https://github.com/snehalchavan96/ShopSmart.git   
+   https://github.com/snehalchavan96/QuickKart.git   
 2. Open the project in your IDE (Eclipse/IntelliJ/NetBeans)
 3. Set up the MySQL database using the provided schema
 4. Configure your DB credentials in the project
